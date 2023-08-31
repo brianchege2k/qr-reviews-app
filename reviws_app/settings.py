@@ -83,10 +83,10 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME':'restaurant_reviews',
-        'USER': config('DB_USER'),
-        'PASSWORD': config('DB_PASSWORD'),
-        'HOST': config('DB_HOST'),
-        'PORT': config('DB_PORT'),
+        'USER': 'admin',
+        'PASSWORD': 'Admin2000!',
+        'HOST': 'localhost',
+        'PORT': 3306,
     }
 }
 
