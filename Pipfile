@@ -9,6 +9,7 @@ gunicorn = "*"
 python-decouple = "*"
 mysqlclient = "*"
 whitenoise = "*"
+dj-database-url = "*"
 
 [dev-packages]
 
