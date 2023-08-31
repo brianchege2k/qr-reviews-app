@@ -1,1 +1,1 @@
-web: gunicorn reviews_app.wsgi --log-file -
+web: gunicorn reviws_app.wsgi --log-file -
